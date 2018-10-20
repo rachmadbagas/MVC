@@ -1,0 +1,20 @@
+{
+    "name": "rachmadbagas/mvc",
+    "description": "some new simple php mvc method",
+    "type": "project",
+    "license": "gpl",
+    "autoload": {
+           "psr-4" : {
+               "App\\":"aplikasi"
+           }
+    },
+    "authors": [
+        {
+            "name": "rachmadbagas",
+            "email": "dokargaul@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.5"
+    }
+}
